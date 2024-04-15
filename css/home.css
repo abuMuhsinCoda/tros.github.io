@@ -34,7 +34,7 @@ body{
     background-size: 100% 100%;
     Height: 100vh;
     position: relative;
-    background-color: rgb(85, 184, 216);
+/*     background-color: rgb(85, 184, 216); */
 }
 #clock{
     background-color: black;
