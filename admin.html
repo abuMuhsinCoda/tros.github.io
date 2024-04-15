@@ -6,8 +6,38 @@
     <title>Admin Section</title>
     <link rel="stylesheet" href="css/admin.css">
     <link rel="icon" href="images/favicon for my project.ico">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
 </head>
-<body>
+<body id="color">
+    <div id="registration">
+        <form action="">
+            <h2>Online Registration for New Pupils</h2><br>
+            <div class="form-group">
+                <label for=""><h3>Biodata Information</h3></label><br>
+                <input type="text" name="first-name" id="first-name" 
+                placeholder="First Name" ><br>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name"><br>
+                <input type="text" name="middle-name" id="middle-name" placeholder="Middle Name"><br>
+                <input type="text" name="Gender" id="gender" placeholder="Gender"><br>
+                <input type="text" name="age" id="age" placeholder="Age"><br>
+                <input type="text" name="" id="proposed-class" placeholder="Entry/Transfer Class"><br><br>
+            </div>
+            
+            <div class="form-group">
+                <label for=""><h3>Schooling System</h3></label><br>
+                <input type="radio" name="school-system" id="boarding">
+                <label for="boarding">Boarding</label>
+                <input type="radio" name="school-system" id="day">
+                <label for="day">Day</label>
+            </div>
+            <br>
+
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button><br><br>
+            
+            <p id="display"></p>
+        </form>
+    </div>
     
+    <script src="js/admin.js"></script>
 </body>
 </html>
