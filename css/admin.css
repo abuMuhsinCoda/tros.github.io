@@ -1,3 +1,40 @@
+
 body {
     background-color: lightblue;
+}
+#color {
+    background-color: lightblue;
+}
+
+form{
+    border: solid rgb(0, 187, 255) 2px;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 30px;
+    border-radius: 40px;
+    color: rgb(9, 90, 119);
+    display: flexbox;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: rgb(220, 233, 238);
+    text-align: center;
+    border: solid rgb(0, 145, 255) 1px;
+    border-radius: 10px;
+    text-wrap: wrap;
+}
+
+#registration{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-weight: bold;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: cursive ;
+
 }
