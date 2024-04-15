@@ -2,7 +2,9 @@
     display: block;
     /* align-items: center; */
     /* justify-content: center; */
-    border: 3px solid sandybrown;
+    border: 3px solid black;
+    overflow: auto;
+    font-size: smaller;
     border-radius: 25%;
     margin: 25px auto;
     text-align: center;
@@ -40,6 +42,7 @@ body{
     background-size: 100% 100%;
     Height: 100vh;
     position: relative;
+    background-color: rgb(85, 184, 216);
 }
 
 
@@ -122,4 +125,19 @@ h1{
 .sub-minor{
     list-style: none;
     font-size: 1.5em;
+}
+.navbar-brand{
+    color: rgb(249, 219, 192);
+    font-size: 3em;
+    padding-left: 100px;
+    font-weight: bolder;
+}
+#name{
+    color: rgb(249, 219, 192);
+}
+#est{
+    color: rgb(249, 219, 192);
+}
+p{
+    font-size: x-large;
 }
