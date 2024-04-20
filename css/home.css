@@ -2,7 +2,7 @@
     display: block;
     /* align-items: center; */
     /* justify-content: center; */
-    border: 3px solid black;
+    border: 3px solid rgb(230, 210, 193);;
     overflow: auto;
     font-size: smaller;
     border-radius: 25%;
@@ -10,6 +10,8 @@
     text-align: center;
     color: black;
     width: 350px;
+    size: 500px;
+    /* height: 250px; */
     padding: 30;
     font-family: 'Courier New', Courier, monospace;
     /* float: center; */
@@ -19,26 +21,47 @@
     margin: 0px;
     margin-top: 0px;
     font-weight: bold;
-    color: rgb(249, 219, 192);
+    color: black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+}
+#major{
+    
+    /* display: block; */
+    /* position: ; */
+    margin: 0;
+    padding: 0;
+    size: 70%;
+    /* object-fit: fill; */
+    
+    
+    /* position: absolute; */
 }
 body{
     border: 0;
     margin: 0;
     padding: 0;
-    background-image: url(images/oasis2.png);
-    /* position: ; */
-    margin: 0;
-    padding: 0;
-    object-fit: fill;
+    /* object-fit: fill; */
+    /* size: 70%; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    Height: 100vh;
-    position: relative;
-    background-color: rgb(85, 184, 216);
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url(/images/oasis2.png);
+    /* background-color: rgb(85, 184, 216); */
+    position: static;
 }
+
+
 #clock{
     background-color: black;
-    color: rgb(105, 241, 105);
+    color: rgb(143, 225, 241);
     padding: 10px 10px;
     text-align: center;
     font-size: 1.8em;
@@ -88,13 +111,18 @@ button:hover{
 }
 
 #minor {
-    height: 25%;
     width: 100%;
-    background-color: lightblue;
+    /* height: 20%; */
+    background-color: rgb(195, 231, 243);
     /* margin-top: 1430px; */
     position: absolute;
     bottom: 0;
-    padding: 25px 10px
+    /* margin: 0px; */
+    padding: 25px 10px;
+    display: block;
+    /* size: 30%; */
+    /* border: 0; */
+    object-fit: fill;
 }
 
 p{
@@ -105,28 +133,26 @@ p{
     font-style: italic;
     
 }
+
 h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding: 0;
     padding-left: 25px;
+    margin-bottom: 0px;
     font-weight: bold;
 }
-
 
 .sub-minor{
     list-style: none;
     font-size: 1.5em;
 }
 .navbar-brand{
-    color: rgb(249, 219, 192);
+    color: rgb(230, 210, 193);
     font-size: 3em;
     padding-left: 100px;
     font-weight: bolder;
 }
 #name{
-    color: rgb(249, 219, 192);
+    color: rgb(57, 40, 25);
 }
-
+#est{
+    color: rgb(57, 40, 25);
+}
