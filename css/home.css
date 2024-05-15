@@ -1,63 +1,150 @@
-#head-section{
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-image: url(images/oasis2.png);
+    position: static;
+}
+
+button {
+    background-color: skyblue;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(49, 179, 231);
+    transition: 2s;
+}
+
+/* Head Section */
+
+a {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-decoration: none;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    color: rgb(230, 210, 193);
+    font-size: 3em;
+    padding-left: 100px;
+    font-weight: bolder;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    size: 70%;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-items {
+    color: darkgreen;
+}
+
+#head-section {
     display: block;
-    /* align-items: center; */
-    /* justify-content: center; */
-    border: 3px solid rgb(230, 210, 193);;
+    border: 20px solid rgb(230, 210, 193);;
     overflow: auto;
     font-size: smaller;
     border-radius: 25%;
     margin: 25px auto;
     text-align: center;
     color: black;
-    width: 350px;
-    size: 500px;
-    /* height: 250px; */
-    padding: 30;
+    width: 400px;
     font-family: 'Courier New', Courier, monospace;
-    /* float: center; */
 }
-#est{
-    font-size: 15px;
-    margin: 0px;
-    margin-top: 0px;
+
+#est {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(57, 40, 25);
+}
+
+
+/* Testimonial Section */
+
+#testimonial {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+#testimonial button:hover{
+    background-color: hsla(28, 72%, 77%, 35%);
+}
+.carousel-item{
+    padding: 3% 10%;
+    background-color: hsla(28, 72%, 77%, 35%);
+    width: 71%;
+    margin: 10% auto;
+}
+.testimonial-image{
+    width: 20%;
+    height:20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item > h2{
+    font-size: 4rem;
     font-weight: bold;
     color: black;
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding: 0;
-}
-#major{
-    
-    /* display: block; */
-    /* position: ; */
+/* Footer Section */
+
+#footer {
+    background-color: rgb(195, 231, 243);
+    position: fixed;
+    bottom: 0;
     margin: 0;
-    padding: 0;
-    size: 70%;
-    /* object-fit: fill; */
-    
-    
-    /* position: absolute; */
-}
-body{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    /* object-fit: fill; */
-    /* size: 70%; */
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100vh;
-    /* width: 100%; */
-    background-image: url(images/oasis2.png);
-    /* background-color: rgb(85, 184, 216); */
-    position: static;
+    padding: 25px 10px;
+    display: inline-block;
+    object-fit: fill;
+    width: 100%;
 }
 
+.card {
+    background-color: rgb(195, 231, 243);
+}
+
+.card-header {
+    font-size: 4rem;
+    background-color: rgb(195, 231, 243);
+}
+
+.card-body {
+    background-color: rgb(195, 231, 243);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+
+.card-footer {
+    list-style: none;
+    font-size: 2em;
+    background-color: rgb(195, 231, 243);
+}
 
 #clock{
     background-color: black;
@@ -71,88 +158,6 @@ body{
     justify-content: center;
     margin-right: 20px;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 0px;
-}
-#flex-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    float: center;
-    margin: 0px;
-    padding: 0px;
-}
-.flex-items{
-    padding-right: 25px;
-    list-style: none;
-    font-size: 1.5em;
-    float: left;
-    color: darkgreen;
-    justify-items: center;
-    text-align: center;  
-}
-button{
-    background-color: skyblue;
-    border-radius: 50px;
-    padding: 10px;
-}
-a{
-    color: brown;
-    font-weight: bold;
-    font-size: 1.6em;
-    text-decoration: none;
-    font-family: cursive;
-    cursor: pointer;
-}
-button:hover{
-    background-color: rgb(49, 179, 231);
-    transition: 2s;
-}
-
-#minor {
-    width: 100%;
-    /* height: 20%; */
-    background-color: rgb(195, 231, 243);
-    /* margin-top: 1430px; */
-    position: absolute;
-    bottom: 0;
-    /* margin: 0px; */
-    padding: 25px 10px;
-    display: block;
-    /* size: 30%; */
-    /* border: 0; */
-    object-fit: fill;
-}
-
-p{
-    font-family: sans-serif;
-    font-size: x-large;
-    margin-top: 0px;
-    padding-top: 10px;
-    font-style: italic;
-    
-}
-
-h1{
-    padding-left: 25px;
-    margin-bottom: 0px;
-    font-weight: bold;
-}
-
-.sub-minor{
-    list-style: none;
-    font-size: 1.5em;
-}
-.navbar-brand{
-    color: rgb(230, 210, 193);
-    font-size: 3em;
-    padding-left: 100px;
-    font-weight: bolder;
-}
-#name{
-    color: rgb(57, 40, 25);
-}
-#est{
-    color: rgb(57, 40, 25);
 }
