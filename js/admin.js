@@ -31,3 +31,9 @@ submit.onclick = function(){
  
     return false;
 }
+
+
+function sayWelcome(){
+    alert("Welcome to the Administrative Section of TROS official website");
+}
+document.addEventListener("DOMContentLoaded", sayWelcome);
